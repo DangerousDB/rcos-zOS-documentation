@@ -126,3 +126,9 @@ rm -rf git-2*
 ```
 
 I then copied the latest build of gitport and then had to leave it for the day as I was out of time
+
+## Monday 10-23-2023
+
+Today I attempted to build my new build of gitport but ended up running into an error again
+
+This was a new error though, specifically an error with curl
