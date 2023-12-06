@@ -98,3 +98,13 @@ zopen build -u -vv
 ```
 
 This command upgraded my libraries, but I still ended up getting an error
+
+## Sunday 10-08-2023
+
+Today I tried using a new build command
+
+```shell
+zopen build -f
+```
+
+which is supposed to force a build. unfortunately I again ran into the same error
