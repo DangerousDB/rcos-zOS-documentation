@@ -132,3 +132,11 @@ I then copied the latest build of gitport and then had to leave it for the day a
 Today I attempted to build my new build of gitport but ended up running into an error again
 
 This was a new error though, specifically an error with curl
+
+## Tuesday 10-24-2023
+
+Today I gave up on gitport and started solving an easy beginner issue having to do with command accuracy on the meta page, I made a branch of the meta, added the change, and then submitted a pull request for my branch, explaining what my changes did, and linked the issue my pull request would solve
+
+## Thursday 10-26-2023
+
+Today I saw that my pull request had one approval and one denial, requesting for me to make some changes. I added the requested changes, committed the new version, and sent a message explaining that I had updated my branch
