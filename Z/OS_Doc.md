@@ -12,8 +12,28 @@ set up zopen config -
 ## Friday 09-22-2023
 
 Today I worked on signing in to the Z_OS operating system. This started off with some issues. For one, despite having created an SSH key and sent it to Igor I was unable to sign in.
-![](pic1.png)
 Eventually, with the help of a group member I learned that I needed to first copy my ssh files into my WSL into a folder I created called ".ssh", I then used the chmod command to give the public ssh key (z_os.pub) so that I could read and write it, to give these permisions, I used the chmod command with the -600 flag. 
 
 Finally I was able to ssh in using my user id, and the ibm ip, along with the -i flag which allowed me to give the directory of where I had stored my private key.
-![](pic2.png)
+
+## Tuesday 09-26-2023
+
+Today I got a lot of work done, I started off by ssh'ing into Z_OS and then running bash like I figured out how to do last time
+
+I then started following igor's email that he sent and installed the new Z_OS meta and after some trial and error I managed to use the same info from my ssh efforts to use the sftp command and to sftp into Z_OS
+
+I then used the "put" command to move the meta file that I had installed into the Z_OS system and directly quit, before ssh-ing back into the Z_OS system
+
+Unfortunately I was supposed to put my files within a folder I had created called "dev" but I hadn't done that, so i quickly made the needed directory with the "mkdir" command, along with a .ssh directory for later, and used the "mv" command to move the correct files
+
+I then used the "pax" command to get the pax, and used "init zopen" to initialize Z_OS
+
+Once Z_OS had finished initializing I installed git and also installed vim while I was at it
+
+Finally I got started on the steps of porting git, as that had been our decided way of getting used to porting to Z_OS
+
+First I started by creating a new ssh public and private key on the Z_OS system, and stored the public key on on my github account by using the cat command to open it up so I could copy and paste it
+
+Finally I used a few commands to clone gitport from github, and set it up on path
+
+The last step was to build gitport but it takes a long time and class was almost over so I stopped there
