@@ -73,3 +73,28 @@ So I upgraded perl, but had to close it halfway through
 So I reopened the terminal but had to uninstall perl as it now had an error
 
 I then reinstalled perl which took the rest of the class
+
+## Friday 10-06-2023
+
+Today I again tried to build gitport
+
+However, I ran into a error that prevented me from building
+
+I used this command on the log file
+```Shell
+cat <.log> | grep error
+```
+
+to attempt to focus in on what was causing the error, but it didn't help, so rather than using the usual build command
+
+```shell
+zopen build -vv
+```
+
+I used a new one suggested by Igor
+
+```shell
+zopen build -u -vv
+```
+
+This command upgraded my libraries, but I still ended up getting an error
