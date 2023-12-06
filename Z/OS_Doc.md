@@ -112,3 +112,17 @@ which is supposed to force a build. unfortunately I again ran into the same erro
 ## Friday 10-13-2023
 
 Today I updated my libraries and again attempted to force a build, but ended up having the same error as usual
+
+## Tuesday 10-17-2023
+
+Today I took a new approach suggested by Igor, I used a command to check how far behind my build of gitport was
+```shell
+git diff
+```
+
+when I saw that my build was behind, I removed it
+```shell
+rm -rf git-2*
+```
+
+I then copied the latest build of gitport and then had to leave it for the day as I was out of time
