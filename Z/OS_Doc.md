@@ -140,3 +140,15 @@ Today I gave up on gitport and started solving an easy beginner issue having to 
 ## Thursday 10-26-2023
 
 Today I saw that my pull request had one approval and one denial, requesting for me to make some changes. I added the requested changes, committed the new version, and sent a message explaining that I had updated my branch
+
+## Tuesday 10-31-2023
+
+My pull request got approved
+
+## Tuesday 11-07-2023
+
+Today I decided to start working on helping to port libmd. To start I copied over the latest build from github and attempted to build it. However I ran into an erro
+
+This is an interesting error, because it seems to come from zopen building, not the actual code, my current guess, is that the port passes some information during the build process that is the wrong format for zopen build which causess it to blow up, however I decided to upgrade my libraries, as it could also be a problem on my end rather than with the code
+
+Unfortunately I wasnt able to complete my upgrades so I will continue that some other time
