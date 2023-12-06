@@ -63,3 +63,13 @@ git config --global user.name "name"
 ```
 
 And that was it for the day because it would take too long to try and build it
+
+## Tuesday 10-03-2023
+
+Today I attempted to build but ran into an error that seemed to be caused by perl
+
+So I upgraded perl, but had to close it halfway through
+
+So I reopened the terminal but had to uninstall perl as it now had an error
+
+I then reinstalled perl which took the rest of the class
