@@ -168,3 +168,9 @@ after confirming that process 423 was ongoing, I used another command to kill it
 ```shell
 kill -SIGKILL 423
 ```
+
+## Friday 12-01-2023
+
+Today I was finally able to finish upgrading my libraries, as all in all it took me multiple days and many hours to go through them all
+
+I attempted to build the libmdport and it actually worked, which means that my error at the beginning was on my side not because of the code
