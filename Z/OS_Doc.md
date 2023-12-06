@@ -37,3 +37,29 @@ First I started by creating a new ssh public and private key on the Z_OS system,
 Finally I used a few commands to clone gitport from github, and set it up on path
 
 The last step was to build gitport but it takes a long time and class was almost over so I stopped there
+
+## Friday 09-29-2023
+
+Today I sshed in normally and cded into my gitport folder  before attempting to build gitport
+
+Unfortunately I wasnt able to run the command
+				
+I tried to figure out whats wrong with path cuz thats why zopen isnt working
+				
+Eventually I learned that I have to build config every time
+				
+finally I ran 
+```shell
+zopen build -vv
+```
+and started building gitport after using cd to ented the gitport folder
+
+But then I got an error because it didnt have my github account
+				
+So I used these commands to tell it my account
+```Shell
+git config --global user.email "email"
+git config --global user.name "name"
+```
+
+And that was it for the day because it would take too long to try and build it
