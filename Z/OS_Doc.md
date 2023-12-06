@@ -108,3 +108,7 @@ zopen build -f
 ```
 
 which is supposed to force a build. unfortunately I again ran into the same error
+
+## Friday 10-13-2023
+
+Today I updated my libraries and again attempted to force a build, but ended up having the same error as usual
